@@ -10,6 +10,7 @@ namespace FitnessTracker.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "<br>Your application description page!.";
             return View();
         }
 

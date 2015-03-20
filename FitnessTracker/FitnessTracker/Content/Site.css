@@ -22,3 +22,34 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.topmenu {
+    background-color: #008B8B;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px;
+    top: 0;
+    z-index: 1030;
+    padding-left: 30px;
+}
+
+.topmenu > li {
+    display: block;
+    width: 100px;
+    text-align: center;
+    float: left;   
+    text-decoration: none;     
+}
+
+.topmenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.topmenu a:hover {
+    background-color: #009999 !important;
+}
