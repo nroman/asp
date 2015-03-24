@@ -53,3 +53,10 @@ textarea {
 .topmenu a:hover {
     background-color: #009999 !important;
 }
+
+.mainContent {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
